@@ -3,6 +3,9 @@ output:
   pdf_document: default
   html_document: default
 ---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
 Loading and preprocessing the data
 
 1. Load the data (i.e. read.csv())
